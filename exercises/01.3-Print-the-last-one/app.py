@@ -7,8 +7,9 @@ def generate_random_list():
 
     for i in range(randonlength):
         aux_list.append(randonlength)
-        i += i
+        # i += i
     return aux_list
 my_stupid_list = generate_random_list()
+print(my_stupid_list)
 
 # Feel happy to write the code below this comment, good luck!:
