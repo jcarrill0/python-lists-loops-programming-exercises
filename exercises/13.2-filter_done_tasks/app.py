@@ -10,6 +10,12 @@ tasks = [
 	{ "label": 'Make a trip', "done": False }
 ]
 
+def pending_task(task):
+    # if task.get("done") != True:
+    return task['label']
+
 
 #Your code go here:
+result = list(filter(pending_task, tasks))
 
+print(result)
